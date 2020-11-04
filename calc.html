@@ -12,10 +12,26 @@
       <nav>
         <span class="char_img">
             <img class="" href="./index.html" src="https://avatar.maplestory.nexon.com/Character/180/DINKBOBCBMDPNFFODENKGELGOGABGFNOADFPJFPOHNOCOMMJDPKAHGNJGPDCDHHOAEJBILMPHDMBJLADICAJAPJNMANGJLLHHDLAGEEDNNAIPOAJCPPMMJJHGMDCBADGNPGENFCNKAJCKIFPMBAKPONIPNCGCIAECHADKGGIBLILJODDCPMCAKDFJNIMBMAGPOLAMDFPAANLMFICCEBDNKLJLICEAOKBBANDIIPBOOKHOFCJMNGCAHILICIPNNMN.png" alt="" onerror="this.src='https://ssl.nx.com/s2/game/maplestory/renewal/common/no_char_img_180.png'">
-        </span>
+        </span><br><br>
+        몬스터 개체수
+        <input type="number" id="spawn_monsters"><br><br>
+        몬스터 경험치
+        <input type="number" id="exp_of_monster"><br><br>
+
+        <input type="button" id="calc" value="Calculate!">
         
       </nav>
+  <script>
+    var spawn_monsters = document.getElementById('spawn_monsters');
+    var exp_of_monster = document.getElementById('exp_of_monster');
+    var calcmonster = spawn_monsters*(60/7)*60
+    var calcExpPerHour = calcmonster*exp_of_monster
+    var calcbutton = document.getElementById('calc');
+    calcbutton.addEventListner('click', function(){
+      alert(calcExpPerHour, calcmonster)
+    })
 
+  </script>
 </body>
 
 </html>
