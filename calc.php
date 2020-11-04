@@ -8,10 +8,17 @@
 </head>
 
 <body>
-    <center>
-
+      <nav>
         <h1>calc</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <?php echo "123" ?>
 
-    </center>
+      </nav>
+
 </body>
+
 </html>
