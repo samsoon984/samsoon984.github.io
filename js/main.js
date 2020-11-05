@@ -12,6 +12,25 @@ var 츄츄4 = document.getElementById('츄츄4');
 var 츄츄5 = document.getElementById('츄츄5');
 
 
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 function go_calc(num1, num2, num3){
     calcmonster = (num1 * (60 / 7.5) * 60).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -239,6 +258,112 @@ function load_data(){
     document.getElementById("55마릿수2").innerText = calcmonster;
     document.getElementById("55경험치").innerText = calcExpPerHour;
     document.getElementById("55메소").innerText = calcMoney;
+
+
+
+    var amountOfmonsters = 32;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("61사냥터").innerText = "형님들 구역 2";
+    document.getElementById("61마릿수1").innerText = amountOfmonsters;
+    document.getElementById("61마릿수2").innerText = calcmonster;
+    document.getElementById("61경험치").innerText = calcExpPerHour;
+    document.getElementById("61메소").innerText = calcMoney;
+    var amountOfmonsters = 37;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("62사냥터").innerText = "그림자가 춤추는 곳 2";
+    document.getElementById("62마릿수1").innerText = amountOfmonsters;
+    document.getElementById("62마릿수2").innerText = calcmonster;
+    document.getElementById("62경험치").innerText = calcExpPerHour;
+    document.getElementById("62메소").innerText = calcMoney;
+    var amountOfmonsters = 37;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("63사냥터").innerText = "그림자가 춤추는 곳 3";
+    document.getElementById("63마릿수1").innerText = amountOfmonsters;
+    document.getElementById("63마릿수2").innerText = calcmonster;
+    document.getElementById("63경험치").innerText = calcExpPerHour;
+    document.getElementById("63메소").innerText = calcMoney;
+    var amountOfmonsters = 33;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("64사냥터").innerText = "그림자가 춤추는 곳 4";
+    document.getElementById("64마릿수1").innerText = amountOfmonsters;
+    document.getElementById("64마릿수2").innerText = calcmonster;
+    document.getElementById("64경험치").innerText = calcExpPerHour;
+    document.getElementById("64메소").innerText = calcMoney;
+    var amountOfmonsters = 31;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("65사냥터").innerText = "폐쇄 구역";
+    document.getElementById("65마릿수1").innerText = amountOfmonsters;
+    document.getElementById("65마릿수2").innerText = calcmonster;
+    document.getElementById("65경험치").innerText = calcExpPerHour;
+    document.getElementById("65메소").innerText = calcMoney;
+    var amountOfmonsters = 37;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("66사냥터").innerText = "폐쇄 구역 2";
+    document.getElementById("66마릿수1").innerText = amountOfmonsters;
+    document.getElementById("66마릿수2").innerText = calcmonster;
+    document.getElementById("66경험치").innerText = calcExpPerHour;
+    document.getElementById("66메소").innerText = calcMoney;
+    var amountOfmonsters = 37;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("67사냥터").innerText = "폐쇄 구역 3";
+    document.getElementById("67마릿수1").innerText = amountOfmonsters;
+    document.getElementById("67마릿수2").innerText = calcmonster;
+    document.getElementById("67경험치").innerText = calcExpPerHour;
+    document.getElementById("67메소").innerText = calcMoney;
+    var amountOfmonsters = 27;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("68사냥터").innerText = "그날의 트뤼에페 2";
+    document.getElementById("68마릿수1").innerText = amountOfmonsters;
+    document.getElementById("68마릿수2").innerText = calcmonster;
+    document.getElementById("68경험치").innerText = calcExpPerHour;
+    document.getElementById("68메소").innerText = calcMoney;
+    var amountOfmonsters = 35;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("69사냥터").innerText = "그날의 트뤼에페 3";
+    document.getElementById("69마릿수1").innerText = amountOfmonsters;
+    document.getElementById("69마릿수2").innerText = calcmonster;
+    document.getElementById("69경험치").innerText = calcExpPerHour;
+    document.getElementById("69메소").innerText = calcMoney;
+    var amountOfmonsters = 32;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("70사냥터").innerText = "그날의 트뤼에페 4";
+    document.getElementById("70마릿수1").innerText = amountOfmonsters;
+    document.getElementById("70마릿수2").innerText = calcmonster;
+    document.getElementById("70경험치").innerText = calcExpPerHour;
+    document.getElementById("70메소").innerText = calcMoney;
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
