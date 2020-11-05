@@ -65,7 +65,11 @@
         <div class="dropdown">
           <a href="#" class="dropbtn" id="아르카나테이블">아르카나</a>
             <div class="dropdown-content">
-              <a href="#" id="아르카나1">1</a>
+              <a href="#" id="아르카나1">물과 햇살의 숲</a>
+              <a href="#" id="아르카나2">흙의 숲</a>
+              <a href="#" id="아르카나3">동굴 아랫길</a>
+              <a href="#" id="아르카나4">동굴 윗길</a>
+              <a href="#" id="아르카나5">다섯 갈래 동굴</a>
             </div>
         </div>
         <div class="dropdown">
@@ -106,7 +110,7 @@
           <th>시간당 획득 가능 경험치</th>
           <th>시간당 획득 가능 메소</th>
           <script>
-            var x = 19;
+            var x = 24;
             for(i=1;i<=x;i++){
               if(i<=5){
                 document.write("<tr id="+"소멸의여로테이블"+">");
@@ -118,6 +122,8 @@
                 document.write("<tr id="+"얌얌테이블"+">");
               } else if(i<=19){
                 document.write("<tr id="+"레헬른테이블"+">");
+              } else if(i<=24){
+                document.write("<tr id="+"아르카나테이블"+">");
               }
               document.write("<td id ="+i+"사냥터></td>")
               document.write("<td id ="+i+"마릿수1></td>")
@@ -133,7 +139,6 @@
       </nav>
     </div>
     
-  <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>

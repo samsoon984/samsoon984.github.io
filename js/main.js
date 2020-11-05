@@ -194,8 +194,51 @@ function load_data(){
     document.getElementById("19마릿수2").innerText = calcmonster;
     document.getElementById("19경험치").innerText = calcExpPerHour;
     document.getElementById("19메소").innerText = calcMoney;
-
-
+    var amountOfmonsters = 	33;
+    var exp_of_monster = 397208;
+    var level_of_monster = 230.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("20사냥터").innerText = "물과 햇살의 숲";
+    document.getElementById("20마릿수1").innerText = amountOfmonsters;
+    document.getElementById("20마릿수2").innerText = calcmonster;
+    document.getElementById("20경험치").innerText = calcExpPerHour;
+    document.getElementById("20메소").innerText = calcMoney;
+    var amountOfmonsters = 28;
+    var exp_of_monster = 408788;
+    var level_of_monster = 232
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("21사냥터").innerText = "흙의 숲";
+    document.getElementById("21마릿수1").innerText = amountOfmonsters;
+    document.getElementById("21마릿수2").innerText = calcmonster;
+    document.getElementById("21경험치").innerText = calcExpPerHour;
+    document.getElementById("21메소").innerText = calcMoney;
+    var amountOfmonsters = 20;
+    var exp_of_monster = 446505;
+    var level_of_monster = 237
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("22사냥터").innerText = "동굴 아랫길";
+    document.getElementById("22마릿수1").innerText = amountOfmonsters;
+    document.getElementById("22마릿수2").innerText = calcmonster;
+    document.getElementById("22경험치").innerText = calcExpPerHour;
+    document.getElementById("22메소").innerText = calcMoney;
+    var amountOfmonsters = 29;
+    var exp_of_monster = 446505;
+    var level_of_monster = 237
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("23사냥터").innerText = "동굴 윗길";
+    document.getElementById("23마릿수1").innerText = amountOfmonsters;
+    document.getElementById("23마릿수2").innerText = calcmonster;
+    document.getElementById("23경험치").innerText = calcExpPerHour;
+    document.getElementById("23메소").innerText = calcMoney;
+    var amountOfmonsters = 21;
+    var exp_of_monster = 458617;
+    var level_of_monster = 238.5
+    go_calc(amountOfmonsters, exp_of_monster, level_of_monster);
+    document.getElementById("24사냥터").innerText = "다섯 갈래 동굴";
+    document.getElementById("24마릿수1").innerText = amountOfmonsters;
+    document.getElementById("24마릿수2").innerText = calcmonster;
+    document.getElementById("24경험치").innerText = calcExpPerHour;
+    document.getElementById("24메소").innerText = calcMoney;
 
 }
 
