@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>MapleStory!</title>
+  <title>MapleStory Calculator!</title>
   <link href="./css/main.css" rel="stylesheet">
   <link rel="shortcut icon" type="image⁄x-icon" href="https://avatar.maplestory.nexon.com/Character/180/DINKBOBCBMDPNFFODENKGELGOGABGFNOADFPJFPOHNOCOMMJDPKAHGNJGPDCDHHOAEJBILMPHDMBJLADICAJAPJNMANGJLLHHDLAGEEDNNAIPOAJCPPMMJJHGMDCBADGNPGENFCNKAJCKIFPMBAKPONIPNCGCIAECHADKGGIBLILJODDCPMCAKDFJNIMBMAGPOLAMDFPAANLMFICCEBDNKLJLICEAOKBBANDIIPBOOKHOFCJMNGCAHILICIPNNMN.png">
   
@@ -14,35 +14,79 @@
         <span class="char_img">
             <img class="" href="https://samsoon984.github.io/" src="https://avatar.maplestory.nexon.com/Character/180/DINKBOBCBMDPNFFODENKGELGOGABGFNOADFPJFPOHNOCOMMJDPKAHGNJGPDCDHHOAEJBILMPHDMBJLADICAJAPJNMANGJLLHHDLAGEEDNNAIPOAJCPPMMJJHGMDCBADGNPGENFCNKAJCKIFPMBAKPONIPNCGCIAECHADKGGIBLILJODDCPMCAKDFJNIMBMAGPOLAMDFPAANLMFICCEBDNKLJLICEAOKBBANDIIPBOOKHOFCJMNGCAHILICIPNNMN.png" alt="" onerror="this.src='https://ssl.nx.com/s2/game/maplestory/renewal/common/no_char_img_180.png'">
         </span><br><br>
-        <h1>몬스터 개체수</h1>
-        <input type="number" id="spawn_monsters" value=""><br><br>
-        <h1>몬스터 경험치</h1>
-        <input type="number" id="exp_of_monster" value=""><br><br><br><br>
-
-        <input type="button" id="calc" value="Calculate!"><br><br>
-        
-        <h1>시간당 획득하는 경험치
-        <div id='expresult'></div>
-        </h1><br><br>
-        <h1>시간당 잡는 마릿수
-        <div id='countresult'></div>
-        </h1>
+        <div class="dropdown">
+          <button class="dropbtn">소멸의 여로</button>
+            <div class="dropdown-content">
+              <a href="#" id="여로1">1</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">츄츄</button>
+            <div class="dropdown-content">
+              <a href="#" id="츄츄1">1</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">레헬른</button>
+            <div class="dropdown-content">
+              <a href="#" id="레헬른1">1</a>
+            </div>
+        </div><br><br>
+        <div class="dropdown">
+          <button class="dropbtn">아르카나</button>
+            <div class="dropdown-content">
+              <a href="#" id="아르카나1">1</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">모라스</button>
+            <div class="dropdown-content">
+              <a href="#" id="모라스1">1</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">셀라스</button>
+            <div class="dropdown-content">
+              <a href="#" id="셀라스1">1</a>
+            </div>
+        </div><br><br>
+        <div class="dropdown">
+          <button class="dropbtn">문브릿지</button>
+            <div class="dropdown-content">
+              <a href="#" id="문브릿지1">1</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">미궁</button>
+            <div class="dropdown-content">
+              <a href="#" id="미궁1">1</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">리멘</button>
+            <div class="dropdown-content">
+              <a href="#" id="리멘1">1</a>
+            </div>
+        </div><br><br><br><br>
+        <center>
+        <table border=1>  
+          <th>사냥터</th>
+          <th>마릿수</th>
+          <th>경험치</th>
+          <th>메소</th>
+          <tr id="tabletest1">
+            <td id ="사냥터">1</td>
+            <td id ="마릿수">2</td>
+            <td id ="경험치">3</td>
+            <td id ="메소">4</td>
+          </tr>
+        </table>
+        </center><br><br>
+        <!-- <input type="button" class="calc" id="calc" value="Calculate!"><br><br> -->
       </nav>
     </div>
-  <script>
-    var calcbutton = document.getElementById('calc');
-    calcbutton.addEventListener('click', function(){
-      var spawn_monsters = document.getElementById('spawn_monsters').value;
-      var exp_of_monster = document.getElementById('exp_of_monster').value;
-      var calcmonster = spawn_monsters * (60 / 7.5) * 60;
-      var calcExpPerHour = calcmonster * exp_of_monster;
-      document.getElementById("expresult").innerText = parseInt(calcExpPerHour); 
-      document.getElementById("countresult").innerText = parseInt(calcmonster);
-    
-
-    })
-
-  </script>
+  
+  <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>
