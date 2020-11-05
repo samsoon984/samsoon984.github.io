@@ -110,21 +110,53 @@
           <th>시간당 획득 가능 경험치</th>
           <th>시간당 획득 가능 메소</th>
           <script>
-            var x = 24;
-            for(i=1;i<=x;i++){
-              if(i<=5){
-                document.write("<tr id="+"소멸의여로테이블"+">");
-              } else if(i<=8){
-                document.write("<tr id="+"리버스시티테이블"+">");
-              } else if(i<=13){
-                document.write("<tr id="+"츄츄테이블"+">");
-              } else if(i<=15){
-                document.write("<tr id="+"얌얌테이블"+">");
-              } else if(i<=19){
-                document.write("<tr id="+"레헬른테이블"+">");
-              } else if(i<=24){
-                document.write("<tr id="+"아르카나테이블"+">");
-              }
+            for(i=1;i<=5;i++){
+              document.write("<tr id="+"소멸의여로테이블"+">");
+              document.write("<td id ="+i+"사냥터></td>")
+              document.write("<td id ="+i+"마릿수1></td>")
+              document.write("<td id ="+i+"마릿수2></td>")
+              document.write("<td id ="+i+"경험치></td>")
+              document.write("<td id ="+i+"메소></td>")
+              document.write("</tr>")
+            }
+            for(i=11;i<=13;i++){
+              document.write("<tr id="+"리버스시티테이블"+">");
+              document.write("<td id ="+i+"사냥터></td>")
+              document.write("<td id ="+i+"마릿수1></td>")
+              document.write("<td id ="+i+"마릿수2></td>")
+              document.write("<td id ="+i+"경험치></td>")
+              document.write("<td id ="+i+"메소></td>")
+              document.write("</tr>")
+            }
+            for(i=21;i<=25;i++){
+              document.write("<tr id="+"츄츄테이블"+">");
+              document.write("<td id ="+i+"사냥터></td>")
+              document.write("<td id ="+i+"마릿수1></td>")
+              document.write("<td id ="+i+"마릿수2></td>")
+              document.write("<td id ="+i+"경험치></td>")
+              document.write("<td id ="+i+"메소></td>")
+              document.write("</tr>")
+            }
+            for(i=31;i<=32;i++){
+              document.write("<tr id="+"얌얌테이블"+">");
+              document.write("<td id ="+i+"사냥터></td>")
+              document.write("<td id ="+i+"마릿수1></td>")
+              document.write("<td id ="+i+"마릿수2></td>")
+              document.write("<td id ="+i+"경험치></td>")
+              document.write("<td id ="+i+"메소></td>")
+              document.write("</tr>")
+            }
+            for(i=41;i<=44;i++){
+              document.write("<tr id="+"레헬른테이블"+">");
+              document.write("<td id ="+i+"사냥터></td>")
+              document.write("<td id ="+i+"마릿수1></td>")
+              document.write("<td id ="+i+"마릿수2></td>")
+              document.write("<td id ="+i+"경험치></td>")
+              document.write("<td id ="+i+"메소></td>")
+              document.write("</tr>")
+            }
+            for(i=51;i<=55;i++){
+              document.write("<tr id="+"아르카나테이블"+">");
               document.write("<td id ="+i+"사냥터></td>")
               document.write("<td id ="+i+"마릿수1></td>")
               document.write("<td id ="+i+"마릿수2></td>")
