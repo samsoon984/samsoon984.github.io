@@ -37,7 +37,7 @@ function go_calc(num1, num2, num3){
     calcExpPerHour = ((num1 * (60 / 7.5) * 60) * num2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     calcMoney = (num1 * (60 / 7.5) * 60 * 7.5 * num3).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-
+ 
 function load_data(){
     var amountOfmonsters = 22;
     var exp_of_monster = 101389;
