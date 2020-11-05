@@ -5,6 +5,7 @@
  }
 body {
     background-color: lightblue;
+    height:100%;
   }
   
   h1 {
@@ -40,6 +41,7 @@ body {
     display: inline-block;
   }
   #wrapper {
+    height:100%;
     width: 25%;
     margin: 20px auto;
   }
