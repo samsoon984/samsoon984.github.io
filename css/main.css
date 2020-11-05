@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Jua;
+    src: "https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap";
+
+}
 #content {
     width: 600px;
     margin-left: auto;
@@ -7,25 +12,43 @@
     background-color: rgb(255, 255, 255);
     width: auto;
     border-collapse: collapse;
+    border:1px none black;
+    
  }
  th {
     background-color: #464646;
     color: white;
     padding: 15px;
+    border-collapse: collapse;
+    border:1px none black;
   }
   td {
     padding: 15px;
     text-align: center;
     min-width: 180px;
+    border-collapse: collapse;
+    border:1px none black;
   }
   tr:hover {background-color: #f5f5f5;}
 body {
+    font-family: 'Nanum Gothic', sans-serif;
     background-color: lightblue;
     height: 100%;
   }
-  
+  footer {
+    width: 100%;
+    height:100px;
+    position:fixed;
+    bottom:0;
+    background:lightblue;
+    text-align: center;
+ }
   h1 {
     color: white;
+    text-align: center;
+  }
+  h5 {
+    color: rgb(90, 90, 90);
     text-align: center;
   }
   
@@ -37,7 +60,7 @@ body {
     text-align: center;
   }
   a:link, a:visited {
-    background-color: #f44336;
+    background-color: #5ba9f3;
     color: white;
     padding: 15px 25px;
     text-align: center;
@@ -81,7 +104,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -110,3 +133,43 @@ body {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  #소멸의여로테이블{
+    background-color: rgb(175, 207, 250);
+    
+  }
+  #리버스시티테이블{
+    background-color: rgb(147, 151, 170);
+  }
+  #츄츄테이블{
+    background-color: rgb(253, 223, 139);
+    
+  }
+  #얌얌테이블{
+      background-color: #72f176;
+  }
+  #레헬른테이블{
+    background-color: rgb(255, 190, 255);
+  }
+  #아르카나테이블{
+    background-color: rgb(176, 255, 218);
+    color: black;
+  }
+  #모라스테이블{
+    background-color: rgb(175, 253, 247);
+    color: black;
+  }
+  #셀라스테이블{
+    color: white;
+  }
+  #문브테이블{
+    background-color: rgb(204, 159, 255);
+  }
+  #미궁테이블{
+    background-color: rgb(181, 255, 159);
+    color: black;
+  }
+  #리멘테이블{
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }

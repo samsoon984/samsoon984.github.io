@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>MapleStory Calculator!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+  </style>
   <link href="./css/main.css" rel="stylesheet">
   <link rel="shortcut icon" type="image⁄x-icon" href="https://avatar.maplestory.nexon.com/Character/180/DINKBOBCBMDPNFFODENKGELGOGABGFNOADFPJFPOHNOCOMMJDPKAHGNJGPDCDHHOAEJBILMPHDMBJLADICAJAPJNMANGJLLHHDLAGEEDNNAIPOAJCPPMMJJHGMDCBADGNPGENFCNKAJCKIFPMBAKPONIPNCGCIAECHADKGGIBLILJODDCPMCAKDFJNIMBMAGPOLAMDFPAANLMFICCEBDNKLJLICEAOKBBANDIIPBOOKHOFCJMNGCAHILICIPNNMN.png">
   
 </head>
+<script type="text/javascript" src="./js/main.js"></script>
+<body onload="load_data();">
 
-<body>
   <div id="wrapper">
       <nav>
         <span class="char_img">
             <img class="" href="https://samsoon984.github.io/" src="https://avatar.maplestory.nexon.com/Character/180/DINKBOBCBMDPNFFODENKGELGOGABGFNOADFPJFPOHNOCOMMJDPKAHGNJGPDCDHHOAEJBILMPHDMBJLADICAJAPJNMANGJLLHHDLAGEEDNNAIPOAJCPPMMJJHGMDCBADGNPGENFCNKAJCKIFPMBAKPONIPNCGCIAECHADKGGIBLILJODDCPMCAKDFJNIMBMAGPOLAMDFPAANLMFICCEBDNKLJLICEAOKBBANDIIPBOOKHOFCJMNGCAHILICIPNNMN.png" alt="" onerror="this.src='https://ssl.nx.com/s2/game/maplestory/renewal/common/no_char_img_180.png'">
         </span><br><br>
         <div class="dropdown">
-          <button class="dropbtn">소멸의 여로</button>
+          <a href="#" class="dropbtn" id="소멸의여로테이블">소멸의 여로</a>
             <div class="dropdown-content">
               <a href="#" id="여로1">풍화된 분노의 땅</a>
               <a href="#" id="여로2">풍화된 슬픔의 땅</a>
@@ -25,7 +29,7 @@
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">리버스 시티</button>
+          <a href="#" class="dropbtn" id="리버스시티테이블">리버스 시티</a>
             <div class="dropdown-content">
               <a href="#" id="리버스1">숨겨진 연구열차</a>
               <a href="#" id="리버스2">숨겨진 지하열차</a>
@@ -33,7 +37,7 @@
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">츄츄</button>
+          <a href="#" class="dropbtn" id="츄츄테이블">츄츄 아일랜드</a>
             <div class="dropdown-content">
               <a href="#" id="츄츄1">츄릅포레스트 깊은곳</a>
               <a href="#" id="츄츄2">격류지대 1</a>
@@ -43,43 +47,53 @@
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">레헬른</button>
+          <a href="#" class="dropbtn" id="얌얌테이블">얌얌 아일랜드</a>
             <div class="dropdown-content">
-              <a href="#" id="레헬른1">1</a>
+              <a href="#" id="얌얌1">숨겨진 일리야드 들판</a>
+              <a href="#" id="얌얌2">숨겨진 펑고스 숲</a>
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">아르카나</button>
+          <a href="#" class="dropbtn" id="레헬른테이블">레헬른</a>
+            <div class="dropdown-content">
+              <a href="#" id="레헬른1">닭이 뛰노는 곳 3</a>
+              <a href="#" id="레헬른2">본색을 드러내는 곳 1</a>
+              <a href="#" id="레헬른3">춤추는 구두 점령지 1</a>
+              <a href="#" id="레헬른4">악몽의 시계탑 2층</a>
+            </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="dropbtn" id="아르카나테이블">아르카나</a>
             <div class="dropdown-content">
               <a href="#" id="아르카나1">1</a>
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">모라스</button>
+          <a href="#" class="dropbtn" id="모라스테이블">모라스</a>
             <div class="dropdown-content">
               <a href="#" id="모라스1">1</a>
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">셀라스</button>
+          <a href="#" class="dropbtn" id="셀라스테이블">셀라스</a>
             <div class="dropdown-content">
               <a href="#" id="셀라스1">1</a>
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">문브릿지</button>
+          <a href="#" class="dropbtn" id="문브테이블">문브릿지</a>
             <div class="dropdown-content">
               <a href="#" id="문브릿지1">1</a>
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">미궁</button>
+          <a href="#" class="dropbtn" id="미궁테이블">미궁</a>
             <div class="dropdown-content">
               <a href="#" id="미궁1">1</a>
             </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">리멘</button>
+          <a href="#" class="dropbtn" id="리멘테이블">리멘</a>
             <div class="dropdown-content">
               <a href="#" id="리멘1">1</a>
             </div>
@@ -91,19 +105,34 @@
           <th>시간당 마릿수</th>
           <th>시간당 획득 가능 경험치</th>
           <th>시간당 획득 가능 메소</th>
-          <tr id="tabletest1">
-            <td id ="사냥터">0</td>
-            <td id ="마릿수1">0</td>
-            <td id ="마릿수2">0</td>
-            <td id ="경험치">0</td>
-            <td id ="메소">0</td>
-          </tr>
+          <script>
+            var x = 19;
+            for(i=1;i<=x;i++){
+              if(i<=5){
+                document.write("<tr id="+"소멸의여로테이블"+">");
+              } else if(i<=8){
+                document.write("<tr id="+"리버스시티테이블"+">");
+              } else if(i<=13){
+                document.write("<tr id="+"츄츄테이블"+">");
+              } else if(i<=15){
+                document.write("<tr id="+"얌얌테이블"+">");
+              } else if(i<=19){
+                document.write("<tr id="+"레헬른테이블"+">");
+              }
+              document.write("<td id ="+i+"사냥터></td>")
+              document.write("<td id ="+i+"마릿수1></td>")
+              document.write("<td id ="+i+"마릿수2></td>")
+              document.write("<td id ="+i+"경험치></td>")
+              document.write("<td id ="+i+"메소></td>")
+              document.write("</tr>")
+            }
+          </script>
         </table>
         </center><br><br>
         <!-- <input type="button" class="calc" id="calc" value="Calculate!"><br><br> -->
       </nav>
     </div>
-  
+    
   <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
