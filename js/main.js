@@ -10,7 +10,7 @@ var 츄츄2 = document.getElementById('츄츄2');
 var 츄츄3 = document.getElementById('츄츄3');
 var 츄츄4 = document.getElementById('츄츄4');
 var 츄츄5 = document.getElementById('츄츄5');
-
+ 
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
