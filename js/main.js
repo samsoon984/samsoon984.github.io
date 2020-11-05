@@ -772,34 +772,8 @@ function load_data(){
     document.getElementById("130메소").innerText = calcMoney;
 
 
-    
-
-
-
-
-
-
-
-
-
-
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
