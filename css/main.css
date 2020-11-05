@@ -3,6 +3,9 @@
     src: "https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap";
 
 }
+#myimg{
+  background-color: lightblue;
+}
 #content {
     width: 600px;
     margin-left: auto;
@@ -90,7 +93,7 @@ body {
     padding: 16px;
     font-size: 16px;
     border: none;
-    min-width: 100px;
+    min-width: 80px;
     border-radius: 8px;
   }
   
@@ -105,7 +108,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 150px;
+    min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -165,28 +168,28 @@ body {
     
   }
   #얌얌테이블, #얌얌{
-      background-color: #72f176;
+    background-color: #5fcf63;
   }
   #레헬른테이블, #레헬른{
     background-color: rgb(255, 190, 255);
   }
   #아르카나테이블, #아르카나{
-    background-color: rgb(176, 255, 218);
-    color: black;
+    background-color: rgb(133, 219, 154);
   }
   #모라스테이블, #모라스{
-    background-color: rgb(175, 253, 247);
-    color: black;
+    background-color: rgb(159, 204, 200);
+  }
+  #에스페라테이블, #에스페라{
+    background-color: rgb(175, 193, 253);
   }
   #셀라스테이블, #셀라스{
-    color: white;
+    background-color: #44a2f0;
   }
   #문브테이블, #문브{
-    background-color: rgb(204, 159, 255);
+    background-color: rgb(153, 137, 172);
   }
   #미궁테이블, #미궁{
-    background-color: rgb(181, 255, 159);
-    color: black;
+    background-color: rgb(111, 199, 84);
   }
   #리멘테이블, #리멘{
     background-color: rgb(255, 255, 255);
