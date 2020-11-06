@@ -71,7 +71,10 @@ body {
     text-decoration: none;
     display: inline-block;
   }
-  
+  #이동{
+    background-color: rgba(255, 165, 81, 0);
+    min-width: 120px;
+  }
   a:hover, a:active {
     background-color: rgb(255, 70, 70);
   }
