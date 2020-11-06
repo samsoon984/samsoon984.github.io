@@ -163,12 +163,14 @@
             </div>
         </div><br><br><br><br> 
         <center>
-        <table border=1>  
-          <th>사냥터</th>
-          <th>젠수</th>
-          <th>시간당 마릿수</th>
-          <th>시간당 획득 가능 경험치</th>
-          <th>시간당 획득 가능 메소</th>
+        <table border=1 id="myTable">
+          <tr>  
+            <th onclick="sortTable(0)">사냥터</th>
+            <th onclick="sortTable(1)">젠수</th>
+            <th onclick="sortTable(2)">시간당 마릿수</th>
+            <th onclick="sortTable(3)">시간당 획득 가능 경험치</th>
+            <th onclick="sortTable(4)">시간당 획득 가능 메소</th>
+          </tr>
           <script>
             for(i=1;i<=5;i++){
               document.write("<tr id="+"소멸의여로테이블"+">");

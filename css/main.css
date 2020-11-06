@@ -24,6 +24,7 @@
     padding: 15px;
     border-collapse: collapse;
     border:1px none black;
+    cursor: pointer;
   }
   td {
     padding: 15px;
