@@ -56,6 +56,10 @@ body {
     text-align: center;
   }
   
+  h6 {
+    color: gray;
+  }
+  
   p {
     font-family: verdana;
     font-size: 20px;
@@ -74,6 +78,21 @@ body {
   #이동{
     background-color: rgba(255, 165, 81, 0);
     min-width: 120px;
+  }
+  #submit{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 70px;
+    border-style: hidden;
+  }
+  #inputsuggest{
+    height: 300px;
+    width: 700px;
+    max-width: 700px;
+    min-width: 700px;
+    min-height: 300px;
+    text-align: justify;
   }
   a:hover, a:active {
     background-color: rgb(255, 70, 70);
