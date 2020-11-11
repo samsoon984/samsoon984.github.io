@@ -1,0 +1,703 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Brew Recipes</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image⁄x-icon" href="./img.png">
+    
+</head>
+    <body>
+        <div id="brew"><h4>recipes:<br><br>
+        rum:
+            name: 쓴 럼주/짜릿한 럼주/&6황금 럼주
+            ingredients:
+            - Sugar_Cane/18
+            cookingtime: 6
+            distillruns: 2
+            distilltime: 30
+            wood: 2
+            age: 8
+            color: DARK_RED
+            difficulty: 6
+            alcohol: 24 # 6 감소
+            customModelData: 558
+            effects:
+            - FIRE_RESISTANCE/1/20-100
+            - POISON/1-0/30-0
+            lore:
+            - +&8마시기에 너무 쓴맛
+            - ++&8배럴에 절여진
+            - +++&e스파이스 골드
+        </h4>
+</h4><br><br><h4>
+        vodka:
+            name: 구린 보드카/보드카/러시아 보드카
+            ingredients:
+            - Potato/10
+            cookingtime: 15
+            distillruns: 3
+            age: 0
+            color: WHITE
+            difficulty: 4
+            alcohol: 20
+            lore:
+            - +&8거의 마실 수 없음
+            effects:
+            - WEAKNESS/15
+            - POISON/10
+</h4><br><br><h4>
+        whiskey:
+            name: 보기 흉한 위스키/위스키/&6스카치 위스키 # 추가된 레시피
+            ingredients:
+            - Wheat/10
+            cookingtime: 10
+            distillruns: 2
+            distilltime: 50
+            wood: 4
+            age: 6
+            color: ORANGE
+            difficulty: 7
+            alcohol: 14 # 12 감소
+            lore: '&7싱글 몰트'
+</h4><br><br><h4>
+        shroom_vodka:
+            name: 버섯 보드카/버섯 보드카/&6빛나는 버섯 보드카 # 추가된 레시피
+            ingredients:
+            - Potato/10
+            - Red_Mushroom/3
+            - Brown_Mushroom/3
+            cookingtime: 18
+            distillruns: 5
+            age: 0
+            color: 'ff9999' # Pink-Red
+            difficulty: 9 # 2 증가
+            alcohol: 18
+            lore: +++&a어둠속에서 빛난다.
+            effects:
+            - WEAKNESS/80
+            - CONFUSION/27
+            - NIGHT_VISION/50-80
+            - BLINDNESS/12-2
+            - SLOW/10-3
+            </h4><br><br><h4>
+        gr_absinthe:
+            name: 구린 압생트/초록빛 압생트/밝은 초록빛 압생트 # 추가된 레시피
+            ingredients:
+            - Grass/17
+            - Poisonous_Potato/2
+            cookingtime: 5
+            distillruns: 6
+            distilltime: 85
+            color: LIME
+            difficulty: 9
+            alcohol: 46
+            effects:
+            - POISON/25-40
+            - HARM/2
+            - NIGHT_VISION/40-60
+            lore: 
+            - '&a해로워 보인다'
+            </h4><br><br><h4>
+        eggnog:
+            name: 계란 술/에그노그/아드보카트 # 추가된 레시피
+            ingredients:
+            - Egg/5
+            - Sugar/2
+            - Milk_Bucket/1
+            cookingtime: 2
+            color: 'ffe680'
+            difficulty: 4
+            alcohol: 10
+            wood: 0
+            age: 3
+            lore: 
+            - &8날계란으로 만들었음
+        </h4><br><br><h4>
+        sake:
+            name: 쌀뜬물/사케/묵직한사케!
+            ingredients:
+            - Wheat/13
+            - Sugar/7
+            - Sweet_Berries/6
+            cookingtime: 8
+            color: '99ddff'
+            difficulty: 9
+            distillruns: 5
+            alcohol: 15
+            wood: 0
+            age: 2
+            lore: +++&6무겁게 들어와 단맛이 강하게 다가오는 맛.
+            customModelData: 557
+            effects:
+            - POISON/25-40
+            - HARM/2
+            - NIGHT_VISION/40-60
+
+</h4><br><br><h4>
+        1:
+            name: 카스 Lite/카스/&6카스 레드
+            ingredients:
+            - wheat_seeds/7
+            cookingtime: 7
+            distillruns: 2
+            distilltime: 15
+            wood: 0
+            age: 3
+            color: ORANGE
+            difficulty: 8
+            alcohol: 2
+            effects:
+            - FAST_DIGGING/1/300
+            </h4><br><br><h4>
+        2:
+            name: 실패한 참이슬/참이슬/&6참이슬 골드
+            ingredients:
+            - Potato/6
+            cookingtime: 13
+            distillruns: 1
+            distilltime: 30
+            wood: 0
+            age: 3
+            color: GREEN
+            difficulty: 1
+            alcohol: 8
+            lore:
+            - '&f근본'
+            - '&8가장 만들기 쉬운 술'
+            </h4><br><br><h4>
+        3:
+            name: 발렌타인 12년산/발렌타인 17년산/&6발렌타인 21년산
+            ingredients:
+            - Wheat/35
+            - Sugar/9
+            cookingtime: 16
+            distillruns: 3
+            distilltime: 70
+            wood: 3
+            age: 7
+            color: '46120e'
+            difficulty: 9
+            alcohol: 21 # 1 증가
+            </h4><br><br><h4>
+        4:
+            name: 실패한 앱솔루트/앱솔루트/&6양질의 앱솔루트
+            ingredients:
+            - Wheat/34
+            cookingtime: 14
+            distillruns: 4
+            distilltime: 35
+            wood: 1
+            age: 4
+            color: 'ffffff'
+            difficulty: 6
+            alcohol: 20
+            </h4><br><br><h4>
+        5:
+            name: 실패한 팬텀의 첫경험/팬텀의 첫경험/&6양질의 팬텀의 첫경험
+            ingredients:
+            - Phantom_membrane/3
+            - Apple/1
+            cookingtime: 6
+            distillruns: 0
+            wood: 2
+            age: 1
+            color: 'ff0000'
+            difficulty: 3
+            alcohol: 2
+            effects:
+            - LEVITATION/1-2/5-90
+            lore:
+            - +++&c뉴비는 필수
+            </h4><br><br><h4>
+        6:
+            name: 실패한 막걸리/막걸리/&6양질의 막걸리
+            ingredients:
+            - Wheat/14
+            - Grass/2
+            cookingtime: 8
+            distillruns: 2
+            distilltime: 30
+            wood: 2
+            age: 6
+            color: 'f7e18f'
+            difficulty: 6
+            alcohol: 11
+            effects:
+            - FIRE_RESISTANCE/1/20-140 # 40 증가
+            </h4><br><br><h4>
+        7:
+            name: 화요25/화요41/&6화요53
+            ingredients:
+            - potato/34
+            - beetroot/5
+            cookingtime: 15
+            distillruns: 0
+            age: 0
+            color: 'ffffff'
+            difficulty: 4
+            alcohol: 18
+            effects:
+            - BLINDNESS/6
+            </h4><br><br><h4>
+        8:
+            name: 실패한 세뇨리따 샹그리아/세뇨리따 샹그리아/&6양질의 세뇨리따 샹그리아
+            ingredients:
+            - sweet_berries/12
+            cookingtime: 32
+            distillruns: 0
+            wood: 5
+            age: 2
+            color: 'bb1844'
+            difficulty: 2
+            alcohol: 7
+            effects:
+            - SPEED/1-2/300-600
+            </h4><br><br><h4>
+        9:
+            name: 실패한 호세 쿠엘보/호세 쿠엘보/&6양질의 호세 쿠엘보
+            ingredients:
+            - cactus/43
+            cookingtime: 26
+            distillruns: 2
+            distilltime: 430
+            wood: 4
+            age: 2
+            color: 'ffd551'
+            difficulty: 8
+            alcohol: 13 # 3 증가
+            effects:
+            - BLINDNESS/6
+            </h4><br><br><h4>
+            
+        10:
+            name: 실패한 기네스/기네스/&6양질의 기네스
+            ingredients:
+            - pumpkin_seeds/11
+            cookingtime: 14
+            distillruns: 0
+            wood: 6
+            age: 2
+            color: BLACK
+            difficulty: 8
+            alcohol: 3
+            effects:
+            - FAST_DIGGING/1/1000
+            </h4><br><br><h4>
+        11:
+            name: 실패한 봄베이 사파이어/봄베이 사파이어/&6양질의 봄베이 사파이어
+            ingredients:
+            - lapis_lazuli/8
+            - grass/34
+            cookingtime: 17
+            distillruns: 0
+            wood: 6
+            age: 2
+            color: '30a5ff'
+            difficulty: 8
+            alcohol: 15 #5 버프
+            effects:
+            - BLINDNESS/5
+            </h4><br><br><h4>
+        12:
+            name: 실패한 잭다니엘/잭다니엘/&6양질의 잭다니엘
+            ingredients:
+            - wheat/33
+            - dandelion/5
+            cookingtime: 20
+            distillruns: 4
+            distilltime: 130
+            age: 3
+            color: ORANGE
+            difficulty: 8
+            alcohol: 10
+            effects:
+            - SPEED/1-2/300-600
+            </h4><br><br><h4>
+        13:
+            name: 실패한 예거마이스터/예거마이스터/&6양질의 예거마이스터
+            ingredients:
+            - lily_pad/6
+            - grass/28
+            cookingtime: 20
+            age: 3
+            color: ORANGE
+            difficulty: 8
+            alcohol: 10
+            effects:
+            - FIRE_RESISTANCE/1/20-100
+            - SPEED/1-2/30-40
+            </h4><br><br><h4>
+        14:
+            name: 실패한 스파이더 드링크/스파이더 드링크/&6양질의 스파이더 드링크
+            ingredients:
+            - spider_eye/9
+            - wheat_seeds/18
+            cookingtime: 4
+            distillruns: 3
+            distilltime: 80
+            age: 3
+            color: DARK_RED
+            difficulty: 8
+            alcohol: 4
+            effects:
+            - FIRE_RESISTANCE/1/20-100
+            - SPEED/1-2/1200
+            - POISON/2-1/10-5 # 추가
+            lore:
+            - ++&4스파이더 댄스 # 추가
+            - +++&4스파이더 댄스
+            </h4><br><br><h4>
+        15:
+            name: 실패한 히레사케/히레사케/&6양질의 히레사케
+            ingredients:
+            - pufferfish/2
+            - pumpkin_seeds/42
+            cookingtime: 12
+            distillruns: 3
+            distilltime: 240 # 60 감소
+            age: 3
+            color: 'ffffff'
+            difficulty: 10
+            alcohol: 4
+            effects:
+            - FIRE_RESISTANCE/1/20-100
+            - SPEED/1-2/300-360
+            </h4><br><br><h4>
+        16:
+            name: 실패한 간바레오또상/간바레오또상/&6양질의 간바레오또상
+            ingredients:
+            - brown_mushroom/8
+            - pumpkin_seeds/26
+            cookingtime: 12
+            distillruns: 3
+            distilltime: 240 # 60 감소
+            age: 3
+            color: 'ffffff'
+            difficulty: 10
+            alcohol: 4
+            effects:
+            - FIRE_RESISTANCE/1/20-100
+            - SPEED/1-2/300-360
+            </h4><br><br><h4>
+        17:
+            name: 실패한 몬테스 알파/몬테스 알파/&6양질의 몬테스 알파
+            ingredients:
+            - red_tulip/3
+            - sweet_berries/20
+            cookingtime: 10
+            distillruns: 3
+            distilltime: 180 # 120 감소
+            age: 3
+            color: 'bb1844'
+            difficulty: 10
+            alcohol: 8
+            effects:
+            - FIRE_RESISTANCE/1/20-100
+            - SPEED/1-2/300-360
+            </h4><br><br><h4>
+        18:
+            name: 실패한 조니워커 레드라벨/조니워커 레드라벨/&6양질의 조니워커 레드라벨
+            ingredients:
+            - red_tulip/9
+            - wheat/43 # 15 감소
+            cookingtime: 15
+            distillruns: 3
+            distilltime: 300
+            age: 3
+            color: 'bb1844'
+            difficulty: 8 # 2 감소
+            alcohol: 12
+            effects:
+            - FIRE_RESISTANCE/1/40-300 # 20-200 증가
+            - SPEED/1-2/300-360
+            </h4><br><br><h4>
+        19:
+            name: 실패한 윈저 12년산/윈저 12년산/&6양질의 윈저 12년산
+            ingredients:
+            - lily_pad/11 # 12 감소
+            - wheat/35 # 5 감소
+            cookingtime: 8
+            distillruns: 3
+            distilltime: 300
+            age: 3
+            color: 'ffd551'
+            difficulty: 10
+            alcohol: 9
+            effects:
+            - FIRE_RESISTANCE/1/40-140 # 20-40 증가
+            - SPEED/1-2/300-360
+            - HEAL/1
+            lore:
+            - +++&e피로가 가시는 맛 # 추가
+            </h4><br><br><h4>
+        20:
+            name: 타버린 아메리카노/아메리카노/&6양질의 아메리카노
+            ingredients:
+            - cocoa_beans/16
+            - charcoal/3
+            cookingtime: 11
+            distillruns: 3
+            distilltime: 40 # 260 감소 
+            age: 3
+            color: '4b1c1c'
+            difficulty: 10
+            alcohol: 0
+            effects:
+            - FAST_DIGGING/2/300
+            </h4><br><br><h4>
+        21:
+            name: 실패한 노르드 밀주/노르드 밀주/&6양질의 노르드 밀주
+            ingredients:
+            - honeycomb/10
+            - wheat/28 # 12 감소
+            cookingtime: 15
+            distillruns: 0
+            wood: 1
+            age: 3
+            color: 'fff2aa'
+            difficulty: 10
+            alcohol: 9
+            effects:
+            - FAST_DIGGING/2/300
+            - HEAL/1
+            lore:
+            - +++&e피로가 가시는 맛 # 추가
+            </h4><br><br><h4>
+        22:
+            name: 실패한 칭따오/칭따오/&6양질의 칭따오
+            ingredients:
+            - kelp/14
+            - cooked_mutton/5
+            cookingtime: 8
+            distillruns: 5
+            distilltime: 65 # 5 증가
+            age: 2
+            color: '54821e'
+            difficulty: 10
+            alcohol: 2
+            effects:
+            - FAST_DIGGING/1/400
+            - HEAL/1 # 추가함
+            lore:
+            - +++&e피로가 가시는 맛 # 추가
+            </h4><br><br><h4>
+        23:
+            name: 고독한 크리스마스 주/크리스마스 주/&6즐거운 크리스마스 주
+            ingredients:
+            - wheat_seeds/31
+            - red_dye/7
+            - lime_dye/3
+            cookingtime: 8
+            distillruns: 3
+            distilltime: 320
+            age: 5
+            color: '54821e'
+            difficulty: 10
+            alcohol: 21
+            effects:
+            - FAST_DIGGING/2/1010
+            - SPEED/1-2/300-360
+            - BLINDNESS/12-2
+            </h4><br><br><h4>
+        24:
+            name: 실패한 녹차라떼/녹차라떼/&6따뜻한 녹차라떼
+            ingredients:
+            - oak_leaves/31
+            - milk_bucket/2
+            cookingtime: 4
+            distillruns: 1
+            distilltime: 50 # 20 감소
+            age: 4 # 1 감소
+            color: 'bcdf4b'
+            difficulty: 10
+            alcohol: 0
+            effects:
+            - FAST_DIGGING/2/1010
+            - SPEED/1-2/300-360
+            </h4><br><br><h4>
+        25:
+            name: 실패한 사과주스/사과주스/&6달달한 사과주스
+            ingredients:
+            - Apple/31
+            - pumpkin_seeds/21
+            cookingtime: 8
+            distillruns: 3 # 2 증가
+            distilltime: 30 # 40 감소
+            age: 5
+            color: 'bb1844'
+            difficulty: 10
+            alcohol: 0
+            effects:
+            - FAST_DIGGING/2/1010
+            - SPEED/1-2/300-360   
+</h4><br><br><h4>
+        26:
+            name: 실패한 핫초코/핫초코/&6따뜻한 핫초코
+            ingredients:
+            - cocoa_beans/31
+            - milk_bucket/4
+            cookingtime: 7
+            distillruns: 1
+            distilltime: 40 # 30 감소
+            age: 5
+            color: '4b1c1c'
+            difficulty: 10
+            alcohol: 0
+            effects:
+            - FAST_DIGGING/2/1010
+            - SPEED/1-2/300-360
+            </h4><br><br><h4>
+        27:
+            name: 실패한 시바스리갈/시바스리갈/&6양질의 시바스리갈
+            ingredients:
+            - kelp/25
+            - carrot/21
+            cookingtime: 14
+            distillruns: 0
+            wood: 3
+            age: 3
+            color: '4b1c1c'
+            difficulty: 7 # 3 감소
+            alcohol: 0
+            effects:
+            - SPEED/1-2/300-360    
+            </h4><br><br><h4>
+        28:
+            name: 실패한 네이키드 그라우스/네이키드 그라우스/&6양질의 네이키드 그라우스
+            ingredients:
+            - brown_mushroom/14
+            - wheat/38 # 6 감소
+            cookingtime: 5
+            distillruns: 2 # 1 감소
+            distilltime: 200 # 340 감소
+            age: 3
+            color: '4b1c1c'
+            difficulty: 10
+            alcohol: 0
+            effects: 
+            - HEAL/1
+            lore:
+            - +++&e피로가 가시는 맛 # 추가
+            </h4><br><br><h4>
+        29:
+            name: 실패한 글렌모렌지/실패한 글렌모렌지/&6양질의 글렌모렌지
+            ingredients:
+            - wheat_seeds/38 # 16 감소
+            - red_mushroom/16 # 6 감소
+            cookingtime: 17
+            distillruns: 0
+            wood: 5
+            age: 5
+            color: '4b1c1c'
+            difficulty: 6 # 4 감소
+            alcohol: 0
+            effects:
+            - SPEED/1-2/300-360   
+            </h4><br><br><h4>
+        30:
+            name: 김빠진 콜라/콜라/&6톡 쏘는 콜라
+            ingredients:
+            - cocoa_beans/21
+            - sugar/13
+            cookingtime: 9
+            distillruns: 3
+            distilltime: 540
+            age: 1
+            color: '4b1c1c'
+            difficulty: 7 # 3 감소
+            alcohol: 0
+            effects:
+            - SPEED/1-2/300-360
+            lore:
+            - '&8&o넌 어느 쪽이야?' # 추가
+            
+            </h4><br><br><h4>
+        31:
+            name: 실패한 실론티/실론티/&6양질의 실론티
+            ingredients:
+            - red_mushroom_block/15
+            - sugar/8
+            - yellow_wool/3
+            cookingtime: 6
+            distillruns: 2
+            distilltime: 50
+            age: 2
+            color: 'A04421'
+            difficulty: 9 # 1 감소
+            alcohol: 0
+            effects:
+            - HEALTH_BOOST/1/800-920 # 200-200 증가
+            </h4><br><br><h4>
+        32:
+            name: 실패한 발광주/발광주/&6양질의 발광주
+            ingredients:
+            - glowstone_dust/6
+            - brown_mushroom/24
+            - blue_dye/6
+            cookingtime: 12
+            distillruns: 3
+            distilltime: 400  # 100 감소
+            color: '0095e9'
+            difficulty: 10
+            alcohol: 0
+            effects:
+            - HEAL/2
+            - GLOWING/200-300
+            - BLINDNESS/30
+            lore:
+            - +++&e피로가 가시는 맛 # 추가
+            - +&f내 몸이 빛나 # 추가
+            - ++&f내 몸이 빛난다! # 추가
+            - +++&f내 몸이 빛나고 있어!! # 추가
+            </h4><br><br><h4>
+        hoooo:
+            name: 실패한 휴양주/휴양주/&6성공한 휴양주
+            ingredients:
+            - red_tulip/5
+            - sugar/8
+            - milk_bucket/3
+            cookingtime: 15
+            distillruns: 2
+            distilltime: 430
+            wood: 4
+            age: 2
+            color: 'ffd551'
+            difficulty: 8
+            alcohol: 50
+            effects:
+            - BLINDNESS/30
+            - SPEED/1-2/300-600
+            - HEALTH_BOOST/1/600-720
+            lore:
+            - +++&6이게 진짜 휴양주다.
+            </h4><br><br><h4>
+        wither:
+            name: 망친 위더 추출물/위더 추출물/&8위더 &f추출물 # 추가한 레시피
+            ingredients:
+            - wither_rose/6
+            cookingtime: 4
+            distillruns: 4
+            distilltime: 44
+            age: 4
+            color: '302827'
+            difficulty: 6
+            alcohol: 4
+            lore:
+            - ++&8수상한 추출물
+            - +++&4치명적인 &7추출물&km
+            effects:
+            - WEAKNESS/3/40-70
+            - POISON/2/0-10
+            - HARM/4
+            - WITHER/1/5-15
+            - BLINDNESS/5
+            - SLOW/3/3-15
+            </h4><br><br><br><br>
+
+            Written By: 휴양지완장, CPM_sTalker, 삼순<br><br><br>
+        </div>
+    </body>
+
+</html>
