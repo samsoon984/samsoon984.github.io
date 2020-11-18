@@ -3,6 +3,16 @@
     src: "https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap";
 
 }
+select{
+    font-family: inherit;
+    padding: .8em .5em;
+    width: 200;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+input{
+    min-height: 20px;
+}
 #myimg{
   background-color: lightblue;
 }
@@ -15,25 +25,22 @@
     background-color: rgb(255, 255, 255);
     width: auto;
     border-collapse: collapse;
-    border:1px none black;
-    
+    border:3px none black;
  }
  th {
     background-color: #464646;
+    min-width: 300px;
     color: white;
     padding: 15px;
     border-collapse: collapse;
-    border:1px none black;
-    cursor: pointer;
+    border:3px none black;
   }
   td {
     padding: 15px;
     text-align: center;
-    min-width: 180px;
     border-collapse: collapse;
-    border:1px none black;
+    border:3px  black;
   }
-  tr:hover {background-color: #f5f5f5;}
 body {
     font-family: 'Nanum Gothic', sans-serif;
     background-color: lightblue;
@@ -200,42 +207,4 @@ body {
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-  #소멸의여로테이블, #소멸의여로{
-    background-color: rgb(175, 207, 250);
-    
-  }
-  #리버스시티테이블, #리버스시티{
-    background-color: rgb(147, 151, 170);
-  }
-  #츄츄테이블, #츄츄{
-    background-color: rgb(253, 223, 139);
-    
-  }
-  #얌얌테이블, #얌얌{
-    background-color: #5fcf63;
-  }
-  #레헬른테이블, #레헬른{
-    background-color: rgb(255, 190, 255);
-  }
-  #아르카나테이블, #아르카나{
-    background-color: rgb(133, 219, 154);
-  }
-  #모라스테이블, #모라스{
-    background-color: rgb(159, 204, 200);
-  }
-  #에스페라테이블, #에스페라{
-    background-color: rgb(175, 193, 253);
-  }
-  #셀라스테이블, #셀라스{
-    background-color: #44a2f0;
-  }
-  #문브테이블, #문브{
-    background-color: rgb(153, 137, 172);
-  }
-  #미궁테이블, #미궁{
-    background-color: rgb(111, 199, 84);
-  }
-  #리멘테이블, #리멘{
-    background-color: rgb(255, 255, 255);
-    color: black;
-  }
+  
