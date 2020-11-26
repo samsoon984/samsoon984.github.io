@@ -133,7 +133,6 @@ div.content {
 
   #소멸의여로테이블, #소멸의여로{
     background-color: rgb(175, 207, 250);
-    
   }
   #리버스시티테이블, #리버스시티{
     background-color: rgb(147, 151, 170);
@@ -173,12 +172,11 @@ div.content {
 
 
   .dropbtn {
-    background-color: #44a2f0;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    min-width: 80px;
+    min-width: 100px;
     border-radius: 8px;
   }
   
@@ -186,6 +184,7 @@ div.content {
   .dropdown {
     position: relative;
     display: inline-block;
+    min-width: 100px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -193,7 +192,7 @@ div.content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 80px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -201,6 +200,7 @@ div.content {
   /* Links inside the dropdown */
   .dropdown-content a {
     background-color: rgb(39, 39, 39);
+    min-width: 100px;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -208,12 +208,14 @@ div.content {
   }
   .dropdown-content input {
     color: black;
+    min-width: 100px;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     margin: auto;
   }
   #myBtn {
+        
     display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
