@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(252, 210, 182);
+  background-color: #FFFFF3;
   font-family: "Lato", sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: rgb(253, 223, 139);
+  background-color: #E0E3DA;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -23,7 +23,7 @@ body {
 }
  
 .sidebar a.active {
-  background-color: #464646;
+  background-color: #A593E0;
   color: white;
 }
 
