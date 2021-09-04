@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #d7d7d7;
+    font-family: "Lato", sans-serif;
+  }
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f0f0e7;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+   
+  .sidebar a.active {
+    background-color: #A593E0;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  #urlinput {
+    padding: .8em .5em;
+    width: 500px;
+  }
+  #divurlinput {
+    margin-bottom: 50px;
+  }
+  #Now {
+    height: 20px;
+    width: 50px;
+  }
+  #divmargin {
+      margin-bottom: 30px;
+  }
+  #winner {
+    visibility: hidden;
+  }

@@ -54,13 +54,15 @@ div.content {
     float: none;
   }
 }
-#wrapper {
+/*
+  #wrapper {
     width: auto;
     margin: 0 auto;
     height: 100%;
     width: 100%;
     text-align: center;
   }
+*/
 
 
 
@@ -142,7 +144,7 @@ div.content {
     
   }
   #얌얌테이블, #얌얌{
-    background-color: #5fcf63;
+    background-color: #60ac62;
   }
   #레헬른테이블, #레헬른{
     background-color: rgb(255, 190, 255);
@@ -215,7 +217,6 @@ div.content {
     margin: auto;
   }
   #myBtn {
-        
     display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
