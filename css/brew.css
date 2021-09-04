@@ -1,8 +1,18 @@
 a {
     font-size: large;
+    color: black;
+    font-weight: bold;
 }
-
+#brewry {
+    cursor:pointer;
+    border-radius: 8px;
+    text-align: center;
+    width: 310px;   
+    margin: 50px;
+    padding: 30px;
+    color: #ffffff;
+    background-color: rgb(175, 193, 253);
+}
 body {
-    padding: 30%;
     background-color: #d7d7d7;
 }
